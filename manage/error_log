@@ -1,0 +1,82 @@
+[05-Nov-2019 14:51:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/indiapaperexport/public_html/ordersheet/manage/system/database/drivers/mysqli/mysqli_driver.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/indiapaperexport/public_html/ordersheet/manage/system/database/DB.php on line 141
+[05-Nov-2019 14:52:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/indiapaperexport/public_html/ordersheet/manage/system/database/drivers/mysqli/mysqli_driver.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/indiapaperexport/public_html/ordersheet/manage/system/database/DB.php on line 141
+[12-Nov-2019 14:55:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 30
+[12-Nov-2019 14:55:57 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 30
+[12-Nov-2019 14:56:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 30
+[12-Nov-2019 15:19:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 41
+[12-Nov-2019 15:35:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function change_field_type() on null in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php:93
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Register->index()
+#1 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#2 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 93
+[12-Nov-2019 15:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Xcrud::change_field_type() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php:93
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Register->index()
+#1 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#2 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 93
+[12-Nov-2019 15:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Xcrud::callback_before_insert() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php:94
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Register->index()
+#1 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#2 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 94
+[12-Nov-2019 15:42:05 UTC] PHP Fatal error:  Cannot redeclare Register::hash_password() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 110
+[12-Nov-2019 15:42:09 UTC] PHP Fatal error:  Cannot redeclare Register::hash_password() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 110
+[12-Nov-2019 15:42:32 UTC] PHP Fatal error:  Cannot redeclare Register::hash_password() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 110
+[12-Nov-2019 15:42:41 UTC] PHP Fatal error:  Cannot redeclare Register::hash_password() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 110
+[13-Nov-2019 08:26:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Xcrud::field_type() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php:34
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Register->index()
+#1 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#2 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/register.php on line 34
+[04-Dec-2019 13:15:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method M_user::where() in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php:95
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php(105): M_user->get_blank_bottom('42')
+#1 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Employee->get_blank('42')
+#2 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#3 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php on line 95
+[04-Dec-2019 13:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method M_user::where() in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php:94
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php(105): M_user->get_blank_bottom('42')
+#1 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Employee->get_blank('42')
+#2 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#3 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php on line 94
+[04-Dec-2019 13:17:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method M_user::where() in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php:96
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php(105): M_user->get_blank_bottom('42')
+#1 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Employee->get_blank('42')
+#2 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#3 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php on line 96
+[04-Dec-2019 13:17:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method M_user::where() in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php:96
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php(105): M_user->get_blank_bottom('42')
+#1 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Employee->get_blank('42')
+#2 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#3 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/models/m_user.php on line 96
+[06-Dec-2019 10:54:25 UTC] PHP Parse error:  syntax error, unexpected '$xcrud' (T_VARIABLE) in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/users.php on line 35
+[06-Dec-2019 10:54:28 UTC] PHP Parse error:  syntax error, unexpected '$xcrud' (T_VARIABLE) in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/users.php on line 35
+[06-Dec-2019 13:32:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_result::where() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php:158
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Employee->order('13')
+#1 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#2 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php on line 158
+[07-Dec-2019 13:22:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_result::reuslt_array() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php:112
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Employee->get_blank('17')
+#1 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#2 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php on line 112
+[07-Dec-2019 13:27:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CI_DB_mysqli_driver::result_array() in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php:112
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/manage/system/core/CodeIgniter.php(360): Employee->get_blank('17')
+#1 /home/indiapaperexport/public_html/ordersheet/manage/index.php(202): require_once('/home/indiapape...')
+#2 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/manage/application/controllers/employee.php on line 112

@@ -1,0 +1,35 @@
+[30-Nov-2018 17:11:02 Etc/GMT] PHP Fatal error:  Class 'M_api' not found in /home/smartyua/public_html/system/core/Loader.php on line 304
+[09-Dec-2018 07:48:11 Etc/GMT] PHP Fatal error:  Call to undefined method M_api::get_address_by_id() in /home/smartyua/public_html/ws/v1/application/models/m_api.php on line 537
+[22-Dec-2018 06:46:55 Etc/GMT] PHP Fatal error:  Call to undefined function getAddressById() in /home/smartyua/public_html/ws/v1/application/models/m_api.php on line 602
+[22-Dec-2018 06:51:05 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/smartyua/public_html/ws/v1/application/models/m_api.php on line 639
+[29-Jan-2019 15:35:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '$new_cashback' (T_VARIABLE) in /home/smartyua/public_html/ws/v1/application/models/m_api.php on line 750
+[09-Feb-2019 08:38:31 Etc/GMT] PHP Fatal error:  Call to undefined function compress() in /home/smartyua/public_html/ws/v1/application/controllers/api.php on line 1160
+[21-Feb-2019 08:05:24 Etc/GMT] PHP Fatal error:  Call to undefined method M_api::update_is_app_login() in /home/smartyua/public_html/ws/v1/application/controllers/api.php on line 481
+[21-Feb-2019 08:05:58 Etc/GMT] PHP Fatal error:  Call to undefined method M_api::update_is_app_login() in /home/smartyua/public_html/ws/v1/application/controllers/api.php on line 455
+[21-Feb-2019 08:07:06 Etc/GMT] PHP Fatal error:  Call to undefined method M_api::check_social_id() in /home/smartyua/public_html/ws/v1/application/controllers/api.php on line 384
+[21-Feb-2019 11:42:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/smartyua/public_html/ws/v1/application/views/mail_tmp/change_product.php on line 42
+[21-Feb-2019 14:42:12 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/smartyua/public_html/ws/v1/application/views/mail_tmp/order_invoice.php on line 97
+[21-Feb-2019 15:06:05 Etc/GMT] PHP Parse error:  syntax error, unexpected '$last_name' (T_VARIABLE), expecting ',' or ';' in /home/smartyua/public_html/ws/v1/application/views/mail_tmp/order_invoice.php on line 83
+[03-Jun-2019 03:39:19 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/smartyua/public_html/ws/v1/application/models/m_api.php on line 1054
+[08-Jul-2019 14:40:38 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/smartyua/public_html/ws/v1/application/controllers/api.php on line 1458
+[12-Nov-2019 13:35:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function join() on array in /home/indiapaperexport/public_html/ordersheet/ws/v1/application/models/m_api.php:243
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/ws/v1/application/controllers/api.php(138): M_api->signin(Array)
+#1 /home/indiapaperexport/public_html/ordersheet/system/core/CodeIgniter.php(360): Api->signin()
+#2 /home/indiapaperexport/public_html/ordersheet/ws/v1/index.php(202): require_once('/home/indiapape...')
+#3 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/ws/v1/application/models/m_api.php on line 243
+[12-Nov-2019 13:35:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function join() on array in /home/indiapaperexport/public_html/ordersheet/ws/v1/application/models/m_api.php:242
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/ws/v1/application/controllers/api.php(138): M_api->signin(Array)
+#1 /home/indiapaperexport/public_html/ordersheet/system/core/CodeIgniter.php(360): Api->signin()
+#2 /home/indiapaperexport/public_html/ordersheet/ws/v1/index.php(202): require_once('/home/indiapape...')
+#3 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/ws/v1/application/models/m_api.php on line 242
+[12-Nov-2019 13:38:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function where() on array in /home/indiapaperexport/public_html/ordersheet/ws/v1/application/models/m_api.php:240
+Stack trace:
+#0 /home/indiapaperexport/public_html/ordersheet/ws/v1/application/controllers/api.php(138): M_api->signin(Array)
+#1 /home/indiapaperexport/public_html/ordersheet/system/core/CodeIgniter.php(360): Api->signin()
+#2 /home/indiapaperexport/public_html/ordersheet/ws/v1/index.php(202): require_once('/home/indiapape...')
+#3 {main}
+  thrown in /home/indiapaperexport/public_html/ordersheet/ws/v1/application/models/m_api.php on line 240
